@@ -1,3 +1,3 @@
 BOT_TOKEN = "6667385868:AAEgEGKSM_YoHyGBAd2Xf4JwBt8tRwen6U8"
 
-WEBAPP_URL = "https://9175-89-236-217-6.ngrok-free.app"
+WEBAPP_URL = "https://6d98-89-236-217-6.ngrok-free.app"
