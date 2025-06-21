@@ -1,7 +1,7 @@
 from aiogram import types, Router, F
 from aiogram.types import WebAppInfo, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import Command
-from bot.config import WEBAPP_URL
+from config import WEBAPP_URL
 
 router = Router()
 
