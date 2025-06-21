@@ -1,7 +1,7 @@
 from aiogram import types, Router, F
 from aiogram.types import WebAppInfo, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import Command
-from config import WEBAPP_URL
+from bot.config import WEBAPP_URL
 
 router = Router()
 
@@ -45,8 +45,8 @@ async def help_callback(callback: types.CallbackQuery):
             inline_keyboard=[
                 [
                     InlineKeyboardButton(
-                        text="🚀 Mini App ochish",
-                        web_app=WebAppInfo(url=WEBAPP_URL)
+                        text="🚀 Mini Appni ochish",
+                        web_app=WebAppInfo(url=WEBAPP_URL)  # Bu yerda web_app ishlatildi
                     )
                 ],
                 [
@@ -94,8 +94,8 @@ async def echo_handler(message: types.Message):
             inline_keyboard=[
                 [
                     InlineKeyboardButton(
-                        text="🚀 Hello World App ochish",
-                        web_app=WebAppInfo(url=WEBAPP_URL)
+                        text="🚀 Mini Appni ochish",
+                        web_app=WebAppInfo(url=WEBAPP_URL)  # Bu yerda ham web_app ishlatildi
                     )
                 ]
             ]
